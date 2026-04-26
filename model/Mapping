@@ -1,0 +1,8 @@
+Mapping
+
+  di= {'BENIGN': 0, 'DoS Hulk': 1,'PortScan': 2, 'DDoS': 3,'DoS GoldenEye': 4, 'FTP-Patator': 5,
+                                                    'SSH-Patator': 6, 'DoS slowloris': 7, 'DoS Slowhttptest': 8}
+                                                    
+We remove as the paper fs = ['Fwd Header Length', 'Total Fwd Packet', 'Fwd Seg Size Min', 'FWD Init Win Bytes', 'SYN Flag Count',
+          'Bwd Packet Length Mean']
+          P.s. The datsets with extension FS the features are removed
