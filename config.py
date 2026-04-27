@@ -19,7 +19,7 @@ ALERT_JSON_PATH = BASE_DIR / 'alerts.json'
 
 # tshark / capture settings
 INTERFACES = ['eth0']
-TSHARK_PATH = 'tshark'
+TSHARK_PATH = '/usr/bin/tshark'
 TSHARK_FIELDS = [
     'frame.time_epoch',
     'ip.src',
